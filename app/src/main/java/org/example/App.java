@@ -2,9 +2,9 @@ package org.example;
 
 import java.util.Scanner;
 
-public class Payroll {
+public class App {
   public static void main(String[] args) {
-    System.out.println("Welcome to the Payroll Calculator!");
+    System.out.println("Welcome to the App Calculator!");
 
     System.out.println("Enter the Number of Hours You Worked: ");
     Scanner scanner = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class Payroll {
 
 
     System.out.println();
-    System.out.println("Payroll Stub: ");
+    System.out.println("App Stub: ");
     System.out.println();
 
 
@@ -48,7 +48,7 @@ public class Payroll {
     System.out.printf("Your net pay is: $%.2f%n ", net);
     System.out.println();
 
-    System.out.println("Thank you for using the Payroll Program!");
+    System.out.println("Thank you for using the App Program!");
 
     scanner.close();
 
